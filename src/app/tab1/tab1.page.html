@@ -1,9 +1,24 @@
-<ion-header [translucent]="true">
+<ion-header class="ion-no-border">
+  <img src="assets/pokeball.png" />
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>Pokédex</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="presentPopover($event)">
+        <ion-icon name="options-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
+
+  <div class="searchbar">
+    <ion-searchbar
+      placeholder="Buscar Pokémon"
+      animated
+      inputmode="text"
+      mode="ios"
+      [debounce]="250"
+      (ionChange)="onSearchChange($event)"
+    ></ion-searchbar>
+  </div>
 </ion-header>
 
 <ion-content [fullscreen]="true">

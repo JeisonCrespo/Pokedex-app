@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'details',
     loadChildren: () => import('./shared/components/details/details.module').then( m => m.DetailsPageModule)
+  },
+  {
+    path: 'generation-filter',
+    loadChildren: () => import('./shared/components/generation-filter/generation-filter.module').then( m => m.GenerationFilterPageModule)
   }
 ];
 @NgModule({
