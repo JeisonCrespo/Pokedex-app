@@ -10,9 +10,7 @@ const routes: Routes = [
   {
     path: 'details',
     loadChildren: () =>
-      import('./shared/components/details/details.module').then(
-        (m) => m.DetailsPageModule
-      ),
+      import('./details/details.module').then((m) => m.DetailsPageModule),
   },
 ];
 @NgModule({

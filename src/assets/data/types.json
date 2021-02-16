@@ -1,108 +1,108 @@
 [
   {
-    "normal" : {
+    "normal": {
       "english": "Normal",
-      "spanish":"Normal"
+      "spanish": "Normal"
     }
   },
   {
-    "fighting" : {
+    "fighting": {
       "english": "Fighting",
       "spanish": "Lucha"
     }
   },
   {
-    "flying" : {
+    "flying": {
       "english": "Flying",
       "spanish": "Volador"
     }
   },
   {
-    "poison" : {
+    "poison": {
       "english": "Poison",
       "spanish": "Veneno"
     }
   },
   {
-    "ground" : {
+    "ground": {
       "english": "Ground",
       "spanish": "Tierra"
     }
   },
   {
-    "rock" : {
+    "rock": {
       "english": "Rock",
       "spanish": "Roca"
     }
   },
   {
-    "bug" : {
+    "bug": {
       "english": "Bug",
       "spanish": "Bicho"
     }
   },
   {
-    "ghost" : {
+    "ghost": {
       "english": "Ghost",
       "spanish": "Fantasma"
     }
   },
   {
-    "steel" : {
+    "steel": {
       "english": "Steel",
       "spanish": "Acero"
     }
   },
   {
-    "fire" : {
+    "fire": {
       "english": "Fire",
       "spanish": "Fuego"
     }
   },
   {
-    "water" : {
+    "water": {
       "english": "Water",
       "spanish": "Agua"
     }
   },
   {
-    "grass" : {
+    "grass": {
       "english": "Grass",
       "spanish": "Planta"
     }
   },
   {
-    "electric" : {
+    "electric": {
       "english": "Electric",
       "spanish": "Eléctrico"
     }
   },
   {
-    "psychic" : {
+    "psychic": {
       "english": "Psychic",
       "spanish": "Psíquico"
     }
   },
   {
-    "ice" : {
+    "ice": {
       "english": "Ice",
       "spanish": "Hielo"
     }
   },
   {
-    "dragon" : {
+    "dragon": {
       "english": "Dragon",
       "spanish": "Dragón"
     }
   },
   {
-    "dark" : {
+    "dark": {
       "english": "Dark",
       "spanish": "Siniestro"
     }
   },
   {
-    "fairy" : {
+    "fairy": {
       "english": "Fairy",
       "spanish": "Hada"
     }
