@@ -10,11 +10,11 @@ import { Pokemon } from '../shared/interfaces/pokemon.interfaces';
 import { GenerationFilterComponent } from '../shared/components/generation-filter/generation-filter.component';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-tab1',
+  templateUrl: 'tab1.page.html',
+  styleUrls: ['tab1.page.scss'],
 })
-export class HomePage {
+export class Tab1Page {
   @ViewChild(IonInfiniteScroll) inifiniteScroll: IonInfiniteScroll;
   @ViewChild(IonSearchbar) searchBar: IonSearchbar;
 
