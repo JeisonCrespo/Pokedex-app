@@ -47,7 +47,7 @@ export class Tab1Page {
     }
   }
 
-  loadData(_event) {
+  loadData(event) {
     if (this.searchBar.value === '') {
       setTimeout(() => {
         if (this.pokemons.length >= this.pokedexServicesService.totalPokemons) {

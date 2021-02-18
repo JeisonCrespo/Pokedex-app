@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
-import { DetailsPageRoutingModule } from '../details/details-routing.module';
 
+import { DetailsPageRoutingModule } from '../details/details-routing.module';
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { ComponentsModule } from '../shared/components/components.module';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     FormsModule,
     DetailsPageRoutingModule,
     Tab1PageRoutingModule,
+    ComponentsModule,
   ],
   declarations: [Tab1Page],
 })
